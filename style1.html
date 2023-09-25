@@ -7,12 +7,12 @@
 </head>
 <body>
     <div class="container wrapper">
-        <div id="top", style="background-color: green;">
+        <div id="top", style="background-color: #04AA6D; padding: 15px;", p>
           <h1 style="color: white;"> Welcome to 심성환's Homepage 22000397</h1>
           <p style="color: white;"> Use the menu to select different Stylesheets</p>
         </div>
         <div class="wrapper">
-         <div id="menubar">
+         <div id="menubar", style="width: 200px; float: left;">
            <ul id="menulist">
              <li class="menuitem" onclick="reStyle(0)">Stylesheet 1
              </li><li class="menuitem" onclick="reStyle(1)">Stylesheet 2
@@ -21,7 +21,7 @@
              </li><li class="menuitem" onclick="noStyles()">No Stylesheet
            </li></ul>
           </div>
-          <div id="main">
+          <div id="main", style="padding: 10px;">
             <h1>Same Page Different Stylesheets</h1>
             <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
             <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
@@ -32,7 +32,7 @@
              <h2>No Styles</h2>
             <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br><a href="#" onclick="noStyles();return false">No Stylesheet</a>.</p>
          </div>
-          <div id="sidebar", style="background-color: #32a4e7;">
+          <div id="sidebar", style="background-color: #32a4e7; padding: 10px; width: 180px;">
             <h3 style="color: white;">Side-Bar</h3>
             <p style = "color: white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
           </div>
