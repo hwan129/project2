@@ -5,7 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project2</title>
 </head>
-<body>
-    
+<body style="background-color: #d14836;">
+    <div class="container wrapper">
+        <div id="top", style="color: white; font-size: 150%; line-height: 26px;">
+          <h1>Welcome to 심성환's Homepage 22000397</h1>
+          <h2>Use the menu to select different Stylesheets</h2>
+        </div>
+        <div class="wrapper">
+         <div id="menubar" style="float: right; width: 190px;">
+           <ul id="menulist">
+             <li class="menuitem" onclick="reStyle(0)">Stylesheet 1
+             </li><li class="menuitem" onclick="reStyle(1)">Stylesheet 2
+             </li><li class="menuitem" onclick="reStyle(2)">Stylesheet 3
+             </li><li class="menuitem" onclick="reStyle(3)">Stylesheet 4
+             </li><li class="menuitem" onclick="noStyles()">No Stylesheet
+           </li></ul>
+          </div>
+          <div id="main" style="background-color: white; padding: 10px;">
+            <h1 style="color: #d14836;">Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
+            <a style="color: #d14836;" href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
+            <a style="color: #d14836;" href="#" onclick="reStyle(1);return false">Stylesheet2</a>,
+            <a style="color: #d14836;" href="#" onclick="reStyle(2);return false">Stylesheet3</a>,
+            <a style="color: #d14836;" href="#" onclick="reStyle(3);return false">Stylesheet4</a>.
+            </p>
+             <h2 style="color: #d14836;">No Styles</h2>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br>
+              <a href="#" onclick="noStyles();return false" style="color: #d14836;">No Stylesheet</a>
+              .
+            </p>
+         </div>
+          <div id="sidebar" style="background-color: #f6dad7; color: #d14836; padding: 10px;">
+            <h3>Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>  
+        
+        
+        <div id="bottom" style="color: white; text-align: center; font-size: 70%; padding: 10px;">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </div>
+      </div>
 </body>
 </html>
