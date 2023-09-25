@@ -7,12 +7,12 @@
 </head>
 <body>
     <div class="container wrapper">
-        <div id="top", style="background-color: #04AA6D;">   <!--배경색, -->
+        <div id="top", style="background-color: #04AA6D;">   <!--배경색-->
           <h1 style="color: white;"> Welcome to 심성환's Homepage 22000397</h1>
           <p style="color: white;"> Use the menu to select different Stylesheets</p>
         </div>
         <div class="wrapper">
-         <div id="menubar", style="width: 200px; float: left;">
+         <div id="menubar", style="width: 200px; float: left;">  <!--가로길이, 도화지의 위치-->
            <ul id="menulist">
              <li class="menuitem" onclick="reStyle(0)">Stylesheet 1
              </li><li class="menuitem" onclick="reStyle(1)">Stylesheet 2
@@ -21,7 +21,7 @@
              </li><li class="menuitem" onclick="noStyles()">No Stylesheet
            </li></ul>
           </div>
-          <div id="main", style="padding: 10px; margin: 0 210px;">
+          <div id="main", style="padding: 10px; margin: 0 210px;">  <!--padding(글자와 테두리의 거리), margin(테두리의 바깥쪽)-->
             <h1>Same Page Different Stylesheets</h1>
             <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
             <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
@@ -30,17 +30,19 @@
             <a href="#" onclick="reStyle(3);return false">Stylesheet4</a>.
             </p>
              <h2>No Styles</h2>
-            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br><a href="#" onclick="noStyles();return false">No Stylesheet</a>.</p>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br>
+                <a href="#" onclick="noStyles();return false">No Stylesheet</a>
+                .
+            </p>
          </div>
-          <div id="sidebar", style="background-color: #32a4e7; padding: 10px; width: 180px; float: right;">
+          <div id="sidebar", style="background-color: #32a4e7; padding: 10px; width: 180px; float: right;">     <!--배경색, 글자와 테두리의 거리, 가로길이, 도화지의 위치-->
             <h3 style="color: white;">Side-Bar</h3>
             <p style = "color: white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
           </div>
         </div>  
         
-        
-        <div id="bottom">
-          <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h6>
+        <div id="bottom", style="background-color: #f1f1f1; text-align: center; border: 10px solid #d4d4d4; font-size: 70%;">       <!--배경색, 글자 중간으로 모으기, 테두리 굵기, 테두리 실선, 글씨 크기-->
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
         </div>
       </div>
 </body>
